@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs": false,
+    "strict": true,
+    "outDir": "./dist",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "removeComments": true
+  },
+  "include": ["src"]
+}

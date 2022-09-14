@@ -1,0 +1,19 @@
+{
+  "name": "shri-ts-2021-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-specifier-resolution=node --experimental-modules src/test.js",
+    "test-ts": "node --experimental-specifier-resolution=node --experimental-modules dist/test.js",
+    "compare": "prettier --write raw && prettier --write dist",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "4.7.4",
+    "prettier": "2.4.1"
+  }
+}
